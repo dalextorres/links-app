@@ -7,17 +7,14 @@ body {
 }
 
 .main-wrapper {
+  background-color: rgba(59, 144, 255, 0.4);
+  padding-top: 3%;
   text-align: center;
-  background-color: white;
   height: 100vh;
 }
 
 .main-title {
   font-size: 40px;
-}
-
-.logo{
-  
 }
 
 .button-wrapper {
@@ -27,15 +24,22 @@ body {
   padding: 10px 0px;
   margin: 4% 4%;
   align-items: center;
-  border-radius: 2px;
-  border: 1px solid rgba(145, 141, 141, 0.5);
+  border-radius: 20px;
+  border: 1px solid rgb(182, 178, 178);
   -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+  color: black;
+  font-weight: 400;
+  height: 55px;
+}
+
+.logo{
+  border-radius: 10px; 
 }
 
 .button-wrapper:hover {
-  background-color: rgba(204, 201, 201, 0.25);
+  background-color: rgba(179, 172, 172, 0.253);
 }
 
 .button-title{
@@ -48,13 +52,16 @@ body {
 }
 
 .link:hover{
-  color: none;
+  background-color: white;
 }
 .link:visited{
   color: black;
 }
 
 @media only screen and (min-width: 1028px) {
+  .main-wrapper {
+    padding-top: 2%;
+  }
   .button-wrapper {
     margin: 0% 20% 2% 20%;
   }
