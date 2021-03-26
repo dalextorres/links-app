@@ -11,10 +11,10 @@ function App() {
     <div className="main-wrapper">
           <img src={SC} style={{height:180}} className="logo"/>
           <div className="buttons-wrapper">
-            <Button id="black-background" icon={G} link="https://google.com" description="Visita nuestra página web"/>
+            <Button id="black-background" icon={G} link="https://google.com" />
             <Button icon={FB} link="https://google.com" description="Síguenos en Facebook"/>
-            <Button id="black-background" icon={IG} link="https://google.com" description="Síguenos en Instagram"/>
-            <Button icon={WP} link="https://google.com" description="81 1212 3390"/>
+            <Button id="black-background" icon={IG} link="https://google.com"/>
+            <Button icon={WP} link="https://wa.me/5218119106600" />
           </div>
     </div>
   );
