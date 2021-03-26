@@ -5,7 +5,6 @@ export default function Button(props) {
                 <div>
                     <img src={props.icon} style={{height: 45}}/>
                 </div>
-                <p className="button-title">{props.description}</p>
             </div>
         </a>
     )

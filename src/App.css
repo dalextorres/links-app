@@ -7,7 +7,7 @@ body {
 }
 
 .main-wrapper {
-  background-color: rgba(59, 144, 255, 0.4);
+  background-color: #086ce4;
   padding-top: 3%;
   text-align: center;
   height: 100vh;
@@ -17,21 +17,24 @@ body {
   font-size: 40px;
 }
 
+.buttons-wrapper{
+  border-radius: 20px;
+  margin: 0 2%;
+}
+
 .button-wrapper {
-  display: grid;
-  grid-template-columns: 35% 65%;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgba(255, 255, 255, 1); */
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 2px;
   padding: 10px 0px;
   margin: 4% 4%;
   align-items: center;
-  border-radius: 20px;
-  border: 1px solid rgb(182, 178, 178);
-  -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
   color: black;
   font-weight: 400;
   height: 55px;
+  -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
 }
 
 .logo{
@@ -39,10 +42,11 @@ body {
 }
 
 .button-wrapper:hover {
-  background-color: rgba(179, 172, 172, 0.253);
+  background-color: rgb(255, 255, 255);
 }
 
 .button-title{
+  margin-top: 15px;
   font-size: 24px;
   text-align: center;
 }
@@ -59,10 +63,10 @@ body {
 }
 
 @media only screen and (min-width: 1028px) {
+  .buttons-wrapper{
+    margin: 0% 20%;
+  }
   .main-wrapper {
     padding-top: 2%;
-  }
-  .button-wrapper {
-    margin: 0% 20% 2% 20%;
   }
 }
