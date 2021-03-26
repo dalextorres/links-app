@@ -45,10 +45,8 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.button-title{
-  margin-top: 15px;
-  font-size: 24px;
-  text-align: center;
+.button-wrapper:hover img {
+  filter: invert(100%) sepia() saturate(10000%) hue-rotate(0deg);
 }
 
 .link{
