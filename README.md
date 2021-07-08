@@ -1,6 +1,8 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose 
+The purpose of this project is to have a website where StreetClubMX customers can access their different social profiles and shopping website. 
+## About
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Available Scripts
 
