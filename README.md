@@ -12,7 +12,8 @@ Then run:
 ````
 npm install
 ```` 
-(You need to have npm installed)
+(You need to have npm installed).
+
 After that, you can run:
 `````
 npm start
