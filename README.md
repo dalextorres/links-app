@@ -3,7 +3,21 @@
 The purpose of this project is to have a website where StreetClubMX customers can access their different social profiles and shopping website. 
 ## About
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
-
+## Setup
+To start, clone the git repository on your computer:
+``````
+git clone https://github.com/AlexTorres88/links-app.git
+``````
+Then run: 
+````
+npm install
+```` 
+(You need to have npm installed)
+After that, you can run:
+`````
+npm start
+``````
+and access the local server at [http://localhost:3000](http://localhost:3000).
 ## Available Scripts
 
 In the project directory, you can run:
